@@ -1,0 +1,5 @@
+
+__dir__=$( cd "$( /usr/bin/dirname "${BASH_SOURCE[0]}" )" && pwd )
+
+find . -regex '.*\.cpp\|.*\.h\|.*\.inl\|.*\.c\|.*\.cc\|.*\.hpp\|.*\.hxx\|.*\.cxx' | xargs clang-format -i -style=file
+find . -regex '.*.TMP'| xargs rm -rf
