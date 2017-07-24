@@ -1,2 +1,2 @@
 # C-Code-Fotmat
-Batch formating c/c++ codes based on clang-format
+Batch formating c/c++ codes based on clang-format 
